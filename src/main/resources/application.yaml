@@ -1,0 +1,19 @@
+spring:
+  devtools:
+    restart:
+      trigger-file: ".reloadtrigger"
+
+server:
+  port: 8080
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: ""
+  health:
+   show-details: always
+
