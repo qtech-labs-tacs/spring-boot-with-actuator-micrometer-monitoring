@@ -206,7 +206,7 @@ ps -auxf | sort -nr -k 3 | head -10
 	 "effectiveLevel":"INFO"
 	 }
 
-* To change logging level to __debug__ we need to send a POST request to the same logger URL.
+* To change logging level to  __debug__  we need to send a POST request to the same logger URL.
 
 	POST http://localhost:8080/actuator/loggers/com.yagnaiq
 	content-type: application/json

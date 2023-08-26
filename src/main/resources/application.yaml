@@ -1,7 +1,7 @@
 spring:
   devtools:
     restart:
-      trigger-file: ".reloadtrigger"
+      trigger-file: "reloadtrigger"
 
 server:
   port: 8080
